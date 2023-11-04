@@ -1,0 +1,70 @@
+.box p {
+    color: red;
+  }
+div > p {
+    background-color: red;
+}
+div ~ p {
+    background-color: blue;
+}
+div + p {
+    background-color: lightblue;
+}
+.cls1:hover {
+    font-weight: bold;
+}
+a:link{
+    color:green;
+    font-size: 2em;
+}
+a:visited{
+    color:rgb(0, 170, 255);
+    font-size: 4em;
+}
+a:active{
+    color:pink;
+    font-size: 6em;
+}
+a:hover{
+    color:purple;
+    font-size: 8em;
+}
+p:hover{
+    text-align: right;
+}
+.cls2:first-child{
+    color: rgb(255, 255, 255);
+}
+ul>li:first-child{
+    color:rgb(204, 0, 255)
+}
+span, div em {
+  padding: 5px;
+  border: 1px solid green;
+  display: inline-block;
+  margin-bottom: 3px;
+}
+.first span:nth-child(2n-1),
+.second span:nth-child(2n-1){
+  background-color: lime;
+}
+a::after {   
+    content: url("icon.PNG");  
+}
+div::first-line { 
+    background-color: aliceblue;
+}
+/*
+Для ДЗ
+background-color от прошлых стилей
+*/
+.container h1{
+	color: blue;
+}
+.container h2{
+	background: blue;
+	color:white;
+}
+.container p > span{
+	font-size: 200%;
+}
